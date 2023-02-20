@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Classic Cars Gallery</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="images/site.webmanifest" />
+  </head>
+  <body>
+    <div id="overlay"></div>
+
+    <div id="modal">
+      <p id="closeModal">Click here to close!</p>
+      <img id="carPreview" />
+    </div>
+
+    <div class="navbar" id="start">
+      <h2 id="logoname">Classic Cars Gallery</h2>
+      <div id="toggle">MENU</div>
+      <div id="toggleOff" style="display: none">[x]Close</div>
+      <ul class="navlinks">
+        <li><a href="#homepoint">Home</a></li>
+        <li><a href="#bann">The Gist</a></li>
+        <li><a href="#evolution">Evolution</a></li>
+        <li><a href="#gallerys">Gallery</a></li>
+        <li><a href="www.wikipedia.com" target="_blank">About Us</a></li>
+      </ul>
+    </div>
+
+    <div class="banner">
+      <div id="homepoint"></div>
+      <img id="bann" src="/Images/fin.png" />
+    </div>
+
+    <main class="container" id="gist">
+      <h1>Classic Car Gist</h1>
+      <p>
+        A classic car is an older car, typically 25 years or older, though
+        definitions vary. The common theme is of an older car of historical
+        interest to be collectible and tend to be restored rather than scrapped.
+        Classic cars are a subset of a broader category of "collector
+        cars"(which includes both restored classic cars vehicles and newer
+        exotic vehicles). A subset of what is considered classic cars are known
+        as antique cars (manufactured before 1980) or vintage cars (manufactured
+        pre-World War II).[1]
+      </p>
+
+      <h2 id="evolution">
+        Key Moments and Milestones in the Evolution of Classic Cars
+      </h2>
+
+      <p>
+        <strong>The early 1900s:</strong> The birth of the automobile industry.
+        Companies such as Ford, Buick, and Oldsmobile began producing cars on a
+        large scale, making them more accessible to the general public.
+      </p>
+
+      <p>
+        <strong>The 1920s:</strong> The rise of the "Roaring Twenties." Cars
+        became a symbol of prosperity and social status, with many models
+        featuring sleek, art deco styling.
+      </p>
+
+      <img id="bann" src="/Images/car3.png" />
+      <p>
+        <strong>The 1930s:</strong> The Great Depression. The automobile
+        industry was hit hard by the economic downturn, but companies such as
+        Cadillac, Packard, and Lincoln continued to produce luxury cars for
+        those who could afford them.
+      </p>
+
+      <p>
+        <strong>The 1940s:</strong> World War II. Production of civilian cars
+        was halted as factories were retooled to produce military vehicles.
+        After the war, car production resumed and many soldiers returning home
+        purchased cars with their savings.
+      </p>
+      <img id="bann" src="/Images/car2.png" />
+      <input type="button" id="show-more" value="Show more" />
+
+      <p class="hide-p">
+        <strong>The 1950s:</strong> The birth of the muscle car. Cars such as
+        the Chevrolet Camaro, Ford Mustang, and Plymouth Barracuda were
+        introduced, featuring powerful V8 engines and sporty styling.
+      </p>
+
+      <p class="hide-p">
+        <strong>The 1960s:</strong> The rise of the sports car. Cars such as the
+        Porsche 911, Ferrari 250 GTO, and Chevrolet Corvette became popular
+        among car enthusiasts.
+      </p>
+
+      <p class="hide-p">
+        <strong>The 1970s:</strong> The oil crisis and emission control laws
+        lead to a decrease in performance and an increase in fuel efficiency.
+      </p>
+
+      <p class="hide-p">
+        <strong>The 1980s:</strong> The rise of Japanese car manufacturers such
+        as Honda, Toyota, and Nissan. They introduced new technology, fuel
+        efficiency and reliability to the market.
+      </p>
+
+      <p class="hide-p">
+        <strong>The 1990s:</strong> The resurgence of classic cars as
+        collectibles. Many people started to invest in classic cars as a form of
+        alternative investment.
+      </p>
+
+      <p class="hide-p">
+        <strong>The 2000s and onwards:</strong> The rise of the internet and
+        social media helped the classic car market to expand and grow. Online
+        marketplaces and forums made it easier for classic car enthusiasts to
+        connect and share information.
+      </p>
+      <input type="button" id="show-less" class="hide-p" value="Show less" />
+    </main>
+
+    <section class="bggal" id="gallerys">
+      <div class="gallery">
+        <h2>Gallery</h2>
+        <p id="subtext">Click on the thumbnail below to view the classic car</p>
+        <div class="images">
+          <div class="pic 01">
+            <img
+              id="carr"
+              src="images/car1.png"
+              alt="First Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+          <div class="pic 02">
+            <img
+              id="carr"
+              src="images/car2.png"
+              alt="Second Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+          <div class="pic 03">
+            <img
+              id="carr"
+              src="images/car3.png"
+              alt="Third Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+          <div class="pic 04">
+            <img
+              id="carr"
+              src="images/car4.png"
+              alt="Fourth Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+          <div class="pic 05">
+            <img
+              id="carr"
+              src="images/car5.png"
+              alt="Fifth Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+          <div class="pic 06">
+            <img
+              id="carr"
+              src="images/car6.png"
+              alt="Sixth Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+          <div class="pic 07">
+            <img
+              id="carr"
+              src="images/car7.png"
+              alt="Seventh Car Image Goes here"
+            />
+            <div class="stripe"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script1.js"></script>
+  </body>
+</html>
